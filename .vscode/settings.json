@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "[dart]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code"
+    },
+    "dart.sdkPath": "/usr/lib/dart",
+    "dart.lineLength": 100,
+    "dart.updateImportsOnRename": true,
+    "dart.enableCompletionCommitCharacters": true,
+    "dart.enableSdkFormatter": true
+}

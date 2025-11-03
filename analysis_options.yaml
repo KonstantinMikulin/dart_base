@@ -1,0 +1,13 @@
+include: package:lints/recommended.yaml
+
+  analyzer:
+    language:
+      strict-raw-types: true
+    errors:
+      always_declare_return_types: warning
+      avoid_print: info
+
+  linter:
+    rules:
+      - prefer_final_locals
+      - prefer_single_quotes
