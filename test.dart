@@ -1,10 +1,12 @@
 import 'dart:io';
 
 void main() {
-  var whatOne = stdin.readLineSync();
-  var how = stdin.readLineSync();
-  var whatTwo = stdin.readLineSync();
-  stdout.writeln(whatTwo);
-  stdout.writeln(how);
-  stdout.writeln(whatOne);
+  final int n = int.parse(stdin.readLineSync()!);
+
+  if (n % 2 == 0) {
+    stdout.writeln('Да');
+  }
+  if (n % 2 != 0) {
+    stdout.writeln('Нет');
+  }
 }
